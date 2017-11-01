@@ -55,8 +55,9 @@ namespace AplicacionMegaCable
             {
                 List<Cliente> aux;
                 aux = listaClientes.FindAll(delegate(Cliente c) { return c.Nombre.Contains(txtBuscarNombre.Text); });
-                DGClientes.DataContext = aux;
+                DGClientes.ItemsSource = aux;
                 DGClientes.Items.Refresh();
+                //MessageBox.Show(aux.ElementAt(0).Direccion);
             }
         }
     }
