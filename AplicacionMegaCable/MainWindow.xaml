@@ -25,9 +25,9 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Label Content="Nombre:" HorizontalAlignment="Left" Margin="107,10,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="txtBuscarNombre" HorizontalAlignment="Left" Height="28" Margin="208,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" FontSize="16" KeyDown="txtBuscarNombre_KeyDown_1"/>
-                    <DataGrid x:Name="DGClientes" HorizontalAlignment="Left" Margin="24,52,0,0" VerticalAlignment="Top" Height="190" Width="545" AutoGenerateColumns="False" SelectionChanged="DGClientes_SelectionChanged">
+                    <Label Content="Nombre:" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtBuscarNombre" HorizontalAlignment="Left" Height="28" Margin="115,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" FontSize="16" KeyDown="txtBuscarNombre_KeyDown_1"/>
+                    <DataGrid x:Name="DGClientes" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" Height="190" Width="589" AutoGenerateColumns="False" SelectionChanged="DGClientes_SelectionChanged">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding Nombre}" ClipboardContentBinding="{x:Null}" Header="Nombre"/>
                             <DataGridTextColumn Binding="{Binding Direccion}" ClipboardContentBinding="{x:Null}" Header="Dirección"/>
@@ -47,9 +47,20 @@
                     </Expander>
                 </Grid>
             </TabItem>
-            <TabItem Header="Paquetes" FontSize="16"/>
+            <TabItem Header="Paquetes" FontSize="16">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Nombre:" HorizontalAlignment="Left" Margin="169,226,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Precio:" HorizontalAlignment="Left" Margin="169,275,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtAddPaquete" HorizontalAlignment="Left" Height="22" Margin="290,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189"/>
+                    <TextBox x:Name="txtAddPrecio" HorizontalAlignment="Left" Height="23" Margin="290,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189"/>
+                    <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="302,322,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
+                </Grid>
+            </TabItem>
         </TabControl>
-        <TextBox HorizontalAlignment="Left" Height="1" Margin="-25,145,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="5"/>
+        <TextBox HorizontalAlignment="Left" Height="1" Margin="-25,145,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="5" d:IsHidden="True"/>
 
     </Grid>
 </Window>
