@@ -67,5 +67,7 @@ namespace AplicacionMegaCable
             txtTotalInfo.Text = Convert.ToString(Convert.ToDouble(listaClientes.ElementAt(DGClientes.SelectedIndex).Paquete.Precio) * (1.15));
 
         }
+
+        
     }
 }
