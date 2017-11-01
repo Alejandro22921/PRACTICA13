@@ -36,6 +36,8 @@ namespace AplicacionMegaCable
             cmbPaquete.ItemsSource = listaPaquetes;
             cmbPaquete.DisplayMemberPath = "Descripcion";
             cmbPaquete.SelectedIndex = 0;
+            dgPaquetes.ItemsSource = listaPaquetes;
+
         }
 
         private void btnAceptar_Click(object sender, RoutedEventArgs e)
@@ -56,6 +58,7 @@ namespace AplicacionMegaCable
                 List<Cliente> aux;
                 aux = listaClientes.FindAll(delegate(Cliente c) { return c.Nombre.Contains(txtBuscarNombre.Text); });
                 DGClientes.ItemsSource = aux;
+
                 DGClientes.Items.Refresh();
             }
         }
@@ -68,6 +71,12 @@ namespace AplicacionMegaCable
 
         }
 
-        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Paquete paquete = new Paquete(txtNombrePaquete.Text,Convert.ToDouble(txtPrecioPaquete.Text));
+            listaPaquetes.Add(paquete);
+            dgPaquetes.Items.Refresh();
+        }
+
     }
 }

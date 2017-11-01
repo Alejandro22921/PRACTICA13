@@ -35,6 +35,5 @@ C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\Aplicac
 C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.g.resources
 C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.Properties.Resources.resources
 C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.csproj.GenerateResource.Cache
-C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.csproj.CoreCompileInputs.cache
 C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.exe
 C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.pdb
