@@ -16,8 +16,8 @@
                     <TextBox x:Name="txtNombre" Height="26" Margin="248,134,0,171" TextWrapping="Wrap" VerticalAlignment="Center" Width="254" FontSize="16" HorizontalAlignment="Left"/>
                     <TextBox x:Name="txtDireccion" Height="26" Margin="248,182,0,123" TextWrapping="Wrap" VerticalAlignment="Center" Width="254" FontSize="16" HorizontalAlignment="Left"/>
                     <ComboBox x:Name="cmbPaquete" Margin="248,74,0,231" VerticalAlignment="Center" Width="254" FontSize="16" HorizontalAlignment="Left" Height="26"/>
-                    <Button x:Name="btnAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="186,230,0,0" VerticalAlignment="Top" Width="74" FontSize="16" Click="btnAceptar_Click"/>
-                    <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="346,230,0,0" VerticalAlignment="Top" Width="74" FontSize="16"/>
+                    <Button x:Name="btnAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="185,257,0,0" VerticalAlignment="Top" Width="74" FontSize="16" Click="btnAceptar_Click"/>
+                    <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="351,257,0,0" VerticalAlignment="Top" Width="74" FontSize="16"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Pago" FontSize="16">
