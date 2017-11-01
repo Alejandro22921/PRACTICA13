@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿#pragma checksum "..\..\MainWindow.xaml" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "D87F3434AB2E3FDC610968DB42C78829"
+=======
+﻿#pragma checksum "..\..\MainWindow.xaml" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "EEB9F65CC8D7B85498A7B396908B8EB5"
+>>>>>>> a2e79972525cda8f0ab7ec2f1a0c689a18ab9209
 =======
 ﻿#pragma checksum "..\..\MainWindow.xaml" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "EEB9F65CC8D7B85498A7B396908B8EB5"
 >>>>>>> a2e79972525cda8f0ab7ec2f1a0c689a18ab9209
