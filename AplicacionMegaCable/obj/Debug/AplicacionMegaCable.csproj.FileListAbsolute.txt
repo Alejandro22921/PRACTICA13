@@ -1,0 +1,13 @@
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\bin\Debug\AplicacionMegaCable.exe.config
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\bin\Debug\AplicacionMegaCable.exe
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\bin\Debug\AplicacionMegaCable.pdb
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.csprojResolveAssemblyReference.cache
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\obj\Debug\MainWindow.baml
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\obj\Debug\MainWindow.g.cs
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\obj\Debug\App.g.cs
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\obj\Debug\AplicacionMegaCable_MarkupCompile.cache
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.g.resources
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.Properties.Resources.resources
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.csproj.GenerateResource.Cache
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.exe
+c:\users\aleja\documents\visual studio 2013\Projects\AplicacionMegaCable\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.pdb
