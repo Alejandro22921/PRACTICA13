@@ -28,7 +28,7 @@
                     <Label Content="Nombre:" HorizontalAlignment="Left" Margin="107,10,0,0" VerticalAlignment="Top"/>
                     <TextBox x:Name="txtBuscarNombre" HorizontalAlignment="Left" Height="28" Margin="208,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" FontSize="16" KeyDown="txtBuscarNombre_KeyDown"/>
                     <DataGrid x:Name="DGClientes" HorizontalAlignment="Left" Margin="24,52,0,0" VerticalAlignment="Top" Height="190" Width="545"/>
-                    <Expander Header="Expander" HorizontalAlignment="Left" Margin="24,260,0,0" VerticalAlignment="Top" Width="545" Height="42">
+                    <Expander Header="Información del pago" HorizontalAlignment="Left" Margin="24,260,0,0" VerticalAlignment="Top" Width="545" Height="42">
                         <Grid Background="#FFE5E5E5" Width="391" Height="66">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="300*"/>
