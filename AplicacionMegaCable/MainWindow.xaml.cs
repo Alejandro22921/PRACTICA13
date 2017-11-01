@@ -40,20 +40,23 @@ namespace AplicacionMegaCable
 
         private void btnAceptar_Click(object sender, RoutedEventArgs e)
         {
-            Paquete paquete = (Paquete)cmbPaquete.SelectedItem;
-            Cliente cliente = new Cliente(txtNombre.Text, txtDireccion.Text, paquete);
-            listaClientes.Add(cliente);
-            MessageBox.Show("Exito :)");
+            try
+            {
+                Paquete paquete = (Paquete)cmbPaquete.SelectedItem;
+                Cliente cliente = new Cliente(txtNombre.Text, txtDireccion.Text, paquete);
+                listaClientes.Add(cliente);
+                MessageBox.Show("Cliente Añadido Exitosamente :)");
+            }catch(Exception){}
         }
 
-        private void txtBuscarNombre_KeyDown(object sender, KeyEventArgs e)
+        private void txtBuscarNombre_KeyDown_1(object sender, KeyEventArgs e)
         {
-            if(e.Key == Key.Return)
+            if (e.Key == Key.Return)
             {
                 List<Cliente> aux;
-                string buscarNombre = txtBuscarNombre.Text;
-                aux = listaClientes.FindAll(delegate(Cliente c) { return c.Nombre.Contains(buscarNombre); });
+                aux = listaClientes.FindAll(delegate(Cliente c) { return c.Nombre.Contains(txtBuscarNombre.Text); });
                 DGClientes.DataContext = aux;
+                DGClientes.Items.Refresh();
             }
         }
     }
