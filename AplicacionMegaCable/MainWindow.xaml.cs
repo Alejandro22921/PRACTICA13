@@ -20,8 +20,8 @@ namespace AplicacionMegaCable
     /// </summary>
     public partial class MainWindow : Window
     {
-        List<Cliente> listaCliente = new List<Cliente>();
-        List<Paquete> listaPaquete = new List<Paquete>()
+        public List<Cliente> listaClientes = new List<Cliente>();
+        public List<Paquete> listaPaquetes = new List<Paquete>()
             { new Paquete("Basic", 100.0),
               new Paquete("Medium", 150.0),
               new Paquete("Premium", 400.0), };
@@ -31,14 +31,9 @@ namespace AplicacionMegaCable
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            cmbPaquete.ItemsSource = listaPaquete;
+            cmbPaquete.ItemsSource = listaPaquetes;
             cmbPaquete.DisplayMemberPath = "Descripcion";
             cmbPaquete.SelectedIndex = 0;
         }
@@ -47,7 +42,7 @@ namespace AplicacionMegaCable
         {
             Paquete paquete = (Paquete)cmbPaquete.SelectedItem;
             Cliente cliente = new Cliente(txtNombre.Text, txtDireccion.Text, paquete);
-            listaCliente.Add(cliente);
+            listaClientes.Add(cliente);
             MessageBox.Show("Exito :)");
         }
 
@@ -57,7 +52,7 @@ namespace AplicacionMegaCable
             {
                 List<Cliente> aux;
                 string buscarNombre = txtBuscarNombre.Text;
-                aux = listaCliente.FindAll(delegate(Cliente c) { return c.Nombre.Contains(buscarNombre); });
+                aux = listaClientes.FindAll(delegate(Cliente c) { return c.Nombre.Contains(buscarNombre); });
                 DGClientes.DataContext = aux;
             }
         }
