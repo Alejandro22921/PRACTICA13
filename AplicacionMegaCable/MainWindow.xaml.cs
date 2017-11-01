@@ -59,5 +59,13 @@ namespace AplicacionMegaCable
                 DGClientes.Items.Refresh();
             }
         }
+
+        private void DGClientes_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            txtNombreInfo.Text = listaClientes.ElementAt(DGClientes.SelectedIndex).Nombre;
+            txtPaqueteInfo.Text = listaClientes.ElementAt(DGClientes.SelectedIndex).Paquete.Descripcion;
+            txtTotalInfo.Text = Convert.ToString(Convert.ToDouble(listaClientes.ElementAt(DGClientes.SelectedIndex).Paquete.Precio) * (1.15));
+
+        }
     }
 }

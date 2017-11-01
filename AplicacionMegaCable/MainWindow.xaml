@@ -10,14 +10,14 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Label Content="Pago" Margin="88,70,0,231" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Left" Height="30"/>
-                    <Label Content="Dirección" Margin="88,182,0,123" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Left" Height="26"/>
-                    <Label Content="Nombre" Margin="88,128,0,171" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Left" Height="32"/>
-                    <TextBox x:Name="txtNombre" Height="26" Margin="248,134,0,171" TextWrapping="Wrap" VerticalAlignment="Center" Width="254" FontSize="16" HorizontalAlignment="Left"/>
-                    <TextBox x:Name="txtDireccion" Height="26" Margin="248,182,0,123" TextWrapping="Wrap" VerticalAlignment="Center" Width="254" FontSize="16" HorizontalAlignment="Left"/>
-                    <ComboBox x:Name="cmbPaquete" Margin="248,74,0,231" VerticalAlignment="Center" Width="254" FontSize="16" HorizontalAlignment="Left" Height="26"/>
-                    <Button x:Name="btnAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="186,230,0,0" VerticalAlignment="Top" Width="74" FontSize="16" Click="btnAceptar_Click"/>
-                    <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="346,230,0,0" VerticalAlignment="Top" Width="74" FontSize="16"/>
+                    <Label Content="Pago" Margin="96,35,0,316" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Left" Height="30"/>
+                    <Label Content="Dirección" Margin="96,147,0,193" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Left" Height="41"/>
+                    <Label Content="Nombre" Margin="96,93,0,256" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Left" Height="32"/>
+                    <TextBox x:Name="txtNombre" Height="26" Margin="256,93,0,262" TextWrapping="Wrap" VerticalAlignment="Center" Width="254" FontSize="16" HorizontalAlignment="Left"/>
+                    <TextBox x:Name="txtDireccion" Height="26" Margin="256,147,0,208" TextWrapping="Wrap" VerticalAlignment="Center" Width="254" FontSize="16" HorizontalAlignment="Left"/>
+                    <ComboBox x:Name="cmbPaquete" Margin="256,39,0,316" VerticalAlignment="Center" Width="254" FontSize="16" HorizontalAlignment="Left" Height="26"/>
+                    <Button x:Name="btnAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="197,191,0,0" VerticalAlignment="Top" Width="74" FontSize="16" Click="btnAceptar_Click"/>
+                    <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="346,191,0,0" VerticalAlignment="Top" Width="74" FontSize="16"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Pago" FontSize="16">
@@ -27,7 +27,7 @@
                     </Grid.ColumnDefinitions>
                     <Label Content="Nombre:" HorizontalAlignment="Left" Margin="107,10,0,0" VerticalAlignment="Top"/>
                     <TextBox x:Name="txtBuscarNombre" HorizontalAlignment="Left" Height="28" Margin="208,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" FontSize="16" KeyDown="txtBuscarNombre_KeyDown_1"/>
-                    <DataGrid x:Name="DGClientes" HorizontalAlignment="Left" Margin="24,52,0,0" VerticalAlignment="Top" Height="190" Width="545" AutoGenerateColumns="False">
+                    <DataGrid x:Name="DGClientes" HorizontalAlignment="Left" Margin="24,52,0,0" VerticalAlignment="Top" Height="190" Width="545" AutoGenerateColumns="False" SelectionChanged="DGClientes_SelectionChanged">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding Nombre}" ClipboardContentBinding="{x:Null}" Header="Nombre"/>
                             <DataGridTextColumn Binding="{Binding Direccion}" ClipboardContentBinding="{x:Null}" Header="Dirección"/>
@@ -40,9 +40,9 @@
                             <Label Content="Nombre:" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top"/>
                             <Label Content="Paquete:" HorizontalAlignment="Left" Margin="28,51,0,0" VerticalAlignment="Top"/>
                             <Label Content="Total:" HorizontalAlignment="Left" Margin="277,10,0,0" VerticalAlignment="Top"/>
-                            <TextBox HorizontalAlignment="Left" Height="23" Margin="105,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                            <TextBox HorizontalAlignment="Left" Height="23" Margin="105,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                            <TextBox HorizontalAlignment="Left" Height="23" Margin="343,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                            <TextBox x:Name="txtNombreInfo" HorizontalAlignment="Left" Height="23" Margin="105,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+                            <TextBox x:Name="txtPaqueteInfo" HorizontalAlignment="Left" Height="23" Margin="105,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+                            <TextBox x:Name="txtTotalInfo" HorizontalAlignment="Left" Height="23" Margin="343,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
                         </Grid>
                     </Expander>
                 </Grid>
