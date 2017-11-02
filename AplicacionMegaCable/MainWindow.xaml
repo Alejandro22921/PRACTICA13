@@ -25,16 +25,13 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-<<<<<<< HEAD
                     <Label Content="Nombre:" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top"/>
                     <TextBox x:Name="txtBuscarNombre" HorizontalAlignment="Left" Height="28" Margin="115,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" FontSize="16" KeyDown="txtBuscarNombre_KeyDown_1"/>
                     <DataGrid x:Name="DGClientes" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" Height="190" Width="589" AutoGenerateColumns="False" SelectionChanged="DGClientes_SelectionChanged">
-=======
                     <Label Content="Nombre:" HorizontalAlignment="Left" Margin="107,10,0,0" VerticalAlignment="Top"/>
                     <TextBox x:Name="txtBuscarNombre" HorizontalAlignment="Left" Height="28" Margin="208,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" FontSize="16" KeyDown="txtBuscarNombre_KeyDown_1"/>
-                    <DataGrid x:Name="DGClientes" HorizontalAlignment="Left" Margin="24,52,0,0" VerticalAlignment="Top" Height="190" Width="545">
->>>>>>> 40371fae790d22e9c5925880082997deb3f2bd50
-                        <DataGrid.Columns>
+                        <DataGrid x:Name="DGClientes" HorizontalAlignment="Left" Margin="24,52,0,0" VerticalAlignment="Top" Height="190" Width="545">
+                            <DataGrid.Columns>
                             <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Nombre"/>
                             <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Dirección"/>
                             <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Paquete"/>
@@ -53,7 +50,6 @@
                     </Expander>
                 </Grid>
             </TabItem>
-<<<<<<< HEAD
             <TabItem Header="Paquetes" FontSize="16">
                 <Grid Background="#FFE5E5E5">
                     <Grid.ColumnDefinitions>
@@ -65,7 +61,6 @@
                     <TextBox x:Name="txtAddPrecio" HorizontalAlignment="Left" Height="23" Margin="290,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189"/>
                     <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="302,322,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
                 </Grid>
-=======
             <TabItem Header="Paquetes" FontSize="16" Content="{Binding Mode=OneWay}">
                 <TabItem.DataContext>
                     <Grid>
