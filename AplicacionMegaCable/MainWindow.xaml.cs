@@ -68,6 +68,7 @@ namespace AplicacionMegaCable
 
         }
 
+<<<<<<< HEAD
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -77,5 +78,8 @@ namespace AplicacionMegaCable
         }
 
 
+=======
+        
+>>>>>>> 40371fae790d22e9c5925880082997deb3f2bd50
     }
 }

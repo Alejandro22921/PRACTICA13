@@ -24,3 +24,17 @@ C:\Users\aleja\Documents\Visual Studio 2013\Projects\AplicacionMegaCable\PRACTIC
 C:\Users\aleja\Documents\Visual Studio 2013\Projects\AplicacionMegaCable\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.g.resources
 C:\Users\aleja\Documents\Visual Studio 2013\Projects\AplicacionMegaCable\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.Properties.Resources.resources
 C:\Users\aleja\Documents\Visual Studio 2013\Projects\AplicacionMegaCable\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.csproj.GenerateResource.Cache
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\bin\Debug\AplicacionMegaCable.exe.config
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\bin\Debug\AplicacionMegaCable.exe
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\bin\Debug\AplicacionMegaCable.pdb
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.csprojResolveAssemblyReference.cache
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\MainWindow.baml
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\MainWindow.g.cs
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\App.g.cs
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable_MarkupCompile.cache
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.g.resources
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.Properties.Resources.resources
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.csproj.GenerateResource.Cache
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.csproj.CoreCompileInputs.cache
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.exe
+C:\Users\B6-JU\Documents\GitHub\PRACTICA13\AplicacionMegaCable\obj\Debug\AplicacionMegaCable.pdb
